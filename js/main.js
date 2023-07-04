@@ -43,8 +43,7 @@ function backweb() {
     }
     else if(contador==2){
         document.getElementById("portafolio").style.display = "block";
-        document.getElementById("habitacion").style.display = "none";
-        document.getElementById("Restaurante").style.display = "none";
+        document.getElementById("Razas").style.display = "none";
         document.getElementById("screen4").style.display = "none";
         document.getElementById("somos").style.display = "none";
         contador=1;
@@ -63,10 +62,9 @@ function backweb() {
 function inicio() {
     document.getElementById("informacion").style.display = "block";	
     document.getElementById("portafolio").style.display = "none";
-    document.getElementById("habitacion").style.display = "none";
+    document.getElementById("Razas").style.display = "none";
     document.getElementById("screen4").style.display = "none";
     document.getElementById("side").style.display = "none";
-    document.getElementById("Restaurante").style.display = "none";
     document.getElementById("sharelink").style.display = "none";
     document.getElementById("somos").style.display = "none";
     conta=0;
@@ -90,21 +88,20 @@ function servicios() {
     document.getElementById("side").style.display = "none";
     document.getElementById("sharelink").style.display = "none";
     document.getElementById("somos").style.display = "none";
-    document.getElementById("habitacion").style.display = "none";
+    document.getElementById("Razas").style.display = "none";
     conta=0;
     contador=1;
     ids1();
 
 }
 
-function habitacion() {
+function Razas() {
     document.getElementById("informacion").style.display = "none";	
     document.getElementById("portafolio").style.display = "none";
-    document.getElementById("habitacion").style.display = "block";
+    document.getElementById("Razas").style.display = "block";
     document.getElementById("side").style.display = "none";
     document.getElementById("informacion").style.display = "none";
     document.getElementById("screen4").style.display = "none";
-    document.getElementById("Restaurante").style.display = "none";
     document.getElementById("sharelink").style.display = "none";
     document.getElementById("somos").style.display = "none";
     conta=0;
@@ -115,22 +112,6 @@ function habitacion() {
     
 }
 
-function restaurante() {
-    document.getElementById("portafolio").style.display = "none";
-    document.getElementById("side").style.display = "none";
-    document.getElementById("informacion").style.display = "none";
-    document.getElementById("habitacion").style.display = "none";
-    document.getElementById("screen4").style.display = "none";
-    document.getElementById("Restaurante").style.display = "none";
-    document.getElementById("sharelink").style.display = "none";
-    document.getElementById("somos").style.display = "none";
-    conta=0;
-    contador=2;
-    backarriba();
-    ids2();
-    
-    
-}
 
 function planes() {
     document.getElementById("screen4").style.display = "block";
@@ -138,8 +119,7 @@ function planes() {
     document.getElementById("sharelink").style.display = "none";
     document.getElementById("side").style.display = "none";
     document.getElementById("informacion").style.display = "none";
-    document.getElementById("habitacion").style.display = "none";
-    document.getElementById("Restaurante").style.display = "none";
+    document.getElementById("Razas").style.display = "none";
     document.getElementById("somos").style.display = "none";
     conta=0;
     contador=2; 
@@ -148,31 +128,13 @@ function planes() {
         
 }
 
-
-function Restaurante() {
-    document.getElementById("Restaurante").style.display = "block";
-    document.getElementById("screen4").style.display = "none";
-    document.getElementById("portafolio").style.display = "none";
-    document.getElementById("side").style.display = "none";
-    document.getElementById("informacion").style.display = "none";
-    document.getElementById("habitacion").style.display = "none";
-    document.getElementById("sharelink").style.display = "none";
-    document.getElementById("somos").style.display = "none";
-    conta=0;
-    contador=2; 
-    ids2();
-    backarriba();  
-        
-}
-
 function somos() {
     document.getElementById("somos").style.display = "block";
-    document.getElementById("Restaurante").style.display = "none";
     document.getElementById("screen4").style.display = "none";
     document.getElementById("portafolio").style.display = "none";
     document.getElementById("side").style.display = "none";
     document.getElementById("informacion").style.display = "none";
-    document.getElementById("habitacion").style.display = "none";
+    document.getElementById("Razas").style.display = "none";
     document.getElementById("sharelink").style.display = "none";
     conta=0;
     contador=2; 
@@ -186,9 +148,8 @@ function sharetj() {
     document.getElementById("informacion").style.display = "none";
     document.getElementById("portafolio").style.display = "none";
     document.getElementById("side").style.display = "none";
-    document.getElementById("habitacion").style.display = "none";
+    document.getElementById("Razas").style.display = "none";
     document.getElementById("screen4").style.display = "none";
-    document.getElementById("Restaurante").style.display = "none";
     document.getElementById("somos").style.display = "none";
     conta=0;
     contador=1;
@@ -214,8 +175,7 @@ function back() {
     }
     else if(contador==2){
         document.getElementById("portafolio").style.display = "block";
-        document.getElementById("habitacion").style.display = "none";
-        document.getElementById("Restaurante").style.display = "none";
+        document.getElementById("Razas").style.display = "none";
         document.getElementById("screen4").style.display = "none";
         document.getElementById("somos").style.display = "none";
         contador=1;
@@ -530,7 +490,7 @@ const shareData2 = {
       
       
       function pekines() {
-        document.getElementById('imgc').value =  `https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglhlRPY2EJ0i5nGVOu5MVD87iVpAdAFYOaUoKk7o1xZBmSYz7X4WTcWOOpb0TGqsOb_w0lr3Dwfltanh2U0GazWbpAuEOUB-mTO_fxGTjialtsCcrfjEeL9JkPEchgOcJORji6qE4xTKRO4snr5tEYZwBlv7TPv_O9uJK_xTgZI2px_Vzy6eKKAkXe/w400-h400/pekines.png`;
+        document.getElementById('imgc').value =  `https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj42Q0C_UCRSqd75uPEr3Eh04eN1MwPQEUJD-k1NHONXcQm631UeW1-QbOgWfMg2UwTbNheqsZLt4AuiYsiZa_oo2F8TxBUxysc0No2QX3mru9OT2kK_kyeWqcbfxNqu_uzfWqSIl0Xl-tQD_Sw4YN2x4p9YLlXqToqAdTEZHK8GAf89CBhc0U_ylE-GII/s320/pekinesss.png`;
         document.getElementById('title').value =  `PEKINÉS`;
         document.getElementById('description').value = `Perro`;
         cotizar2();
@@ -555,6 +515,99 @@ const shareData2 = {
         
           }
 
+          function cocker() {
+            document.getElementById('imgc').value =  `https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDwt84N6hyBorBc2kEkt0V1AMJU2CsHLJYFxoilDhpS9Ten7uLtF4FOsAO4KNlRp8uOERi2zfsx8tfIjeIfF1i4GB-UiRMUORuitraqq3myTIZnH4612-qyiQDj9aUEL3zCgYTBIJ6QvwxP1imppxwx1tNj3O8xDG65dkpWUGWawXWIBUBfyaT3lzYuZw/w320-h320/cocker.png`;
+            document.getElementById('title').value =  `American Cocker Spaniel`;
+            document.getElementById('description').value = `Perro`;
+            cotizar2();
+            
+              }
+
+              function Sheltie() {
+                document.getElementById('imgc').value =  `https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrKAl1gYJmvQLsa1oGHCFkGd7VRoY-fq9zEtx6YAUzsF1YtphRujx3CK2axMn84XFPish3pZtloWbsAo2YqxD10CNmHJWKaeIvoKx_qewS4sHyWeqgEja_I2aPqzPd1imphV9Q0Xllp_D2lF_Oaw5bzaSCVpfqoolSQdig8zE-fcqqOWpceyNL3nw6EV4/s320/Sheltie.png`;
+                document.getElementById('title').value =  `Sheltie`;
+                document.getElementById('description').value = `Perro`;
+                cotizar2();
+                
+                  }  
+                  
+                  
+        function BulldogFrancés() {
+                    document.getElementById('imgc').value =  `https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCvhwQgzWYZEz-pR1xCXOReu-YRvvDeumCOl_4F0G9ZbpchAa3rifz7XIlvJSvAIFr_y_nCpwuFCfnLaq642PCv5_wvFKeBnkiXlgP_E01HUnsnwCc6I0m0mwsHfxF6zBBYKs_ifrXju8rO7c5uUQDFlyBZDLmpFx8sCYDuqckHNCz9AaeqYKISUj-Vmo/s320/Bulldog%20Franc%C3%A9s.png`;
+                    document.getElementById('title').value =  `Bulldog Francés`;
+                    document.getElementById('description').value = `Perro`;
+                    cotizar2();
+                    
+                      } 
+                      
+        function Chihuahua() {
+                        document.getElementById('imgc').value =  `https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVoxj07PBaJ-07mT1p-FyPabuamuSBYifWBxJh8xFEg0sFBsA_zX7VPmyoFLS3IgkepFb01ua4S1_TASbNyIuxdNKH4WhxYM3hMz94hFPd3h8jJF6jL3pewNoZb12uKAwMh_6Y4ztwhWuTnqesZ9b7ZEQdbStf2P9vgSTKMzmTGZO7Enpflf8jhJXEHc4/s320/Chihuahua.png`;
+                        document.getElementById('title').value =  `Chihuahua`;
+                        document.getElementById('description').value = `Perro`;
+                        cotizar2();
+                        
+                          }
+
+
+        function ScottishTerrier() {
+                            document.getElementById('imgc').value =  `https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyOUFDr89VXO3euMOn9g-J12oCEVdMUVHoOHxeHn63Kt0Ob5lcY18qPCAHAgBdQxmrKKFgnbJc6a0KUJO_5K0fR4Hex0q7qNBTwWHdFZhr1ps2Sg8-bsask-9jGfGuHrEanOEXOyJaV__dISdoL-eseS400EnTer9hL60484MEaP1tH6PgpogdsMoS1w8/s320/Scottish%20Terrier.png`;
+                            document.getElementById('title').value =  `Scottish Terrier`;
+                            document.getElementById('description').value = `Perro`;
+                            cotizar2();
+                            
+                              }
+
+        function ShihTzu() {
+                                document.getElementById('imgc').value =  `https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8oL0aWcVwWWTxcHcF4TODrbb4FxGxug96E6nwok1WDp3XdG8FzrD9vP-Y3kmllKCjVy-P8zmY5RrqU04qO5oPFG8KEYpjm5ayDTu44_shoXbm1IaNdvD3lSiUS2i6jzwQVo8izOEgbRg22wEwhSOkqQ6ZPJuX9F7nUf5PlxUEJeoWsq441Da0qAy91OY/s320/Shih%20Tzu.png`;
+                                document.getElementById('title').value =  `Shih Tzu`;
+                                document.getElementById('description').value = `Perro`;
+                                cotizar2();
+                                
+                                  }
+
+        
+          function Jack() {
+                                    document.getElementById('imgc').value =  `https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhudWe80IvbtUrha4h3sIVQMjXM98vyFUcTK-DWnxN_MAVuktuqU3MXSVr5GLOPqqN4hoSiqe7opnDWqiFKr18_Q-HKO5hFVmG7tOZTy0mS8tRONKeSoF-aeBMacZKDYmwh8Cmf-d2ILtfJQDMQ3iOVjz0avQ5N3NWRzExq2FDRzJBWm0GN7lc7qU2UB7w/s320/Jack%20Russell%20Terrier.png`;
+                                    document.getElementById('title').value =  `Jack Russell Terrier`;
+                                    document.getElementById('description').value = `Perro`;
+                                    cotizar2();
+                                    
+                                      }
+
+   function TerrierIng() {
+    document.getElementById('imgc').value =  `https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizJgeI9eKLIgxuS235TaM6bGAJRn0nli7-t1NFvEokBCgLWU25SeSsiHMa5EW9aUy5iS-M8mgVJ05oxXytup4E7dMvPYLOSkz8zoxVYjf1I11cxtmMIOLO0scDSK7Wlcrv5kyXi-h2JDZyq1KuyuOqiDiKsyBbxbF9J5m1PV3m2vxdEAyEP-H0VO1xpQ0/s320/Terrier%20de%20Norfolk.png`;
+    document.getElementById('title').value =  `Terrier Norfolk`;
+    document.getElementById('description').value = `Perro`;
+    cotizar2();
+                                        
+      }
+
+ function Beagle() {
+   document.getElementById('imgc').value =  `https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpxD7X9GYEQQcIDFGLxm64XIfLuV19cKVU8zeptc2De3zT1Z6pva0klTkK9DDT5-kV-XYY0xLUFSx5slbSg4chxhYolGOdNVW_ThQO8Z63J31azPIyVI8TGbRHJ6jfNWFRFcNL3Jq0rSYvSLzQdUO-WC73HR05CTq9uVWa3GqysH6dakhy0OaqTRos510/s320/Beagle.png`;
+   document.getElementById('title').value =  `Beagle`;
+   document.getElementById('description').value = `Perro`;
+   cotizar2();
+                                            
+     }
+
+function BostonTerrier() {
+ document.getElementById('imgc').value =  `https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEik73Nys8FQfHy8kyBlaBl2mj-q4nwNbnrH6oTr7-_9Cz2fntnAmfW1AFNgXxsfYDskO1OiKWGCXET_KRrDIMn0TuzJ7dNROGT3rBXzEdLGO-SzEG1D6rvn095bogezmUUBKleSPWYzNljeiNO01Jn_Rq4mvoVpwLcAvSdEyqQEKlM1PB0aAE1jAKG_1l8/s320/Boston%20Terrier.png`;
+document.getElementById('title').value =  `Boston Terrier`;
+document.getElementById('description').value = `Perro`;
+cotizar2();
+                                                
+   }
+
+   function Pug() {
+    document.getElementById('imgc').value =  `https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiySnpBBoj8PxCct3ckV9yeCisQpnUNpP2lEcW47-Rha6dsStqyWnhZ4wHbz6HQlaZQld93j1ivYQ_uIIpn7d8AnZFAPJeI7QW96-4Nas1STqlRQ3w5X-8LQpK2NMOf5ddLZg6_x2EOSekLkQHndor6_3tQjUpxKt04CFTZgL4am96b7ZoSlUsAzkOXTdE/s320/PUG.png`;
+   document.getElementById('title').value =  `Pug`;
+   document.getElementById('description').value = `Perro`;
+   cotizar2();
+                                                   
+      }
+
+
+        
 
           function msjcarrito() {
             Swal.fire({
@@ -653,7 +706,7 @@ const shareData2 = {
                 tasksView.innerHTML += `<div class="cardp">
                     <div class="card-body">
                      <img src="${imgc}" alt="">
-                      <p class="items">${title} - ${description}
+                      <p class="items">${description} - ${title}
                       <a href="javascript:deleteTask('${title}')"><span class="fa fa-trash"></span ></a>
                       </p>
                    
