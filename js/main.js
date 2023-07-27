@@ -307,7 +307,7 @@ document.querySelector("#submit").addEventListener("click", e => {
       allTasks +=  "Raza:" + tasks[i].title + " Un " + tasks[i].description + " / " + "\n";
     }
 //INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
-let telefono = "59996079530";
+let telefono = "593996079530";
 let cliente = document.querySelector("#cliente").value;
 let Ubicacion = document.querySelector("#Ubicacion").value;
 let venta = document.querySelector("#venta").value;
